@@ -1,0 +1,12 @@
+﻿<Window x:Class="WpfApplication1.Accelerometer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SoundDirection" Height="480" Width="640">
+    <Canvas>
+        <Image Source="Kinect-Sensor.jpg" Width="640" Height="480">      
+            <Image.RenderTransform>
+                <RotateTransform x:Name="kinectangle" Angle="0" CenterX="320" CenterY="240"/>
+            </Image.RenderTransform>
+        </Image>
+    </Canvas>
+</Window>
